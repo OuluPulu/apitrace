@@ -23,8 +23,6 @@
 #
 ##########################################################################/
 
-#!/usr/bin/python
-
 """Generated an header, glproc.hpp, which does pretty much what GLEW does, but
 covers all the functions we support.
 """ 

@@ -33,6 +33,7 @@ set (ENABLE_EGL true CACHE BOOL "Enable EGL support.")
 
 set (ENABLE_WAFFLE false CACHE BOOL "Enable WAFFLE support.")
 
+set (PYTHON_EXECUTABLE python)
 
 ##############################################################################
 # Find dependencies
