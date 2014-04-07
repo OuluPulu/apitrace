@@ -25,7 +25,7 @@ endif ()
 # command so that we can default to auto-detecting optional depencies, while
 # still providing a mechanism to force/disable these optional dependencies, as
 # prescribed in http://www.gentoo.org/proj/en/qa/automagic.xml
-set (ENABLE_GUI "AUTO" CACHE STRING "Enable Qt GUI.")
+set (ENABLE_GUI FALSE)
 
 set (ENABLE_CLI true CACHE BOOL "Enable command Line interface.")
 
@@ -54,7 +54,7 @@ set (CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
 set (CMAKE_USE_PYTHON_VERSION 2.7 2.6)
 
-set (ENABLE_GUI false)
+set (ENABLE_GUI FALSE)
 
 find_package (Threads)
 
